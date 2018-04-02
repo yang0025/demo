@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>图片集</title>
+    <style>
+        
+        header{
+           text-align: center;
+           font-size: 30px;
+           color: blueviolet;
+        }
+        .container {
+           
+
+            
+            margin: 5px;
+            border: 1px solid red;
+            display: flex;
+            flex-wrap: wrap;
+         
+        }
+
+        img {
+            width: calc((100% - 40px) / 4);
+            height: 300px;
+            margin: 5px;
+         }
+        @media (max-width: 1150px){
+            img{
+                width: calc((100% - 30px) / 3);
+            }
+
+        }
+        @media(max-width: 760px){
+            img{
+                width: calc((100% - 20px) / 2);
+            }
+        }
+         @media(max-width: 570px){
+             img{
+                 width: calc(100% - 10px);
+             }
+         }
+        
+    </style>
+</head>
+
+<body>
+    
+    
+    <header>图片集</header>
+
+
+
+    <div class="container">
+        <img src="images/1.jpg" alt="">
+        <img src="images/2.jpg" alt="">
+        <img src="images/3.jpg" alt="">
+        <img src="images/4.jpg" alt="">
+        <img src="images/5.jpg" alt="">
+        <img src="images/6.jpg" alt="">
+        <img src="images/7.jpg" alt="">
+        <img src="images/8.jpg" alt="">
+        <img src="images/9.jpg" alt="">
+        <img src="images/10.jpg" alt="">
+        <img src="images/11.jpg" alt="">
+        <img src="images/12.jpg" alt="">
+        <img src="images/13.jpg" alt="">
+        <img src="images/14.jpg" alt="">
+        <img src="images/15.jpg" alt="">
+        <img src="images/16.jpg" alt="">
+
+
+    </div>
+
+</body>
+
+</html>
